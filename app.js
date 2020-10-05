@@ -1,12 +1,23 @@
-let a;
-function show_hide(){
-    if (a==1){
-        document.getElementById(card-info).style.display="inline";
-        return a=0;
-    }
-    else{
-        document.getElementById(card-info).style.display="none";
-        return a=1;
-    }
-}
 
+
+
+document.getElementById("card-background_background").addEventListener("click", function(){
+
+    var container = document.getElementById("card-info");
+
+    if(container.style.display=="none"){
+        container.style.display="block";
+        container.style.Transition = 'opacity 1s';
+    }else{
+        container.style.display="none";
+    }
+})
+
+
+/*const imgclick = document.querySelectorAll('.card')
+
+for (var i=0; i < imgclick.length; i++){
+    imgclick[i].addEventListener('click', function(e){
+
+    })
+}*/
