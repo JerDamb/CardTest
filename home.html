@@ -5,29 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
         <div class="card">
-            <div class="card-background">
-                <img class="card-background_img" src="./img/img4.jpg" alt="">
-                <div class="card-background_title">
-                    <H1>Le pendu</H1>
+            <div class="card-background_background" onclick="show_hide()">
+                <div class="card-background_img">
+                    <div class="background-img"></div>
                 </div>
+                <img class="img-front" src="./img/sorciere.png" alt="">
             </div>
-            <div class="card-info">
+            <div class="card-info" id="card-info">
                 <div class="card-info_title">
-                    <H1>Le pendu</H1>
+                    <p>Le titre</p>
                 </div>
                 <div class="card-info_subtitle">
-                    <h3>Lorem Ipsum is simply dummy text</h3>
+                    <p>Lorem Ipsum is simply dummy text</p>
                 </div>
                 <div class="card-info_description">
-                    <div class="card-info_description_title">
-                        <h3>Titre de la description si y'a besoin</h3>
-                    </div>
                     <p class="card-info_text">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the
@@ -39,20 +36,27 @@
                     </p>
                 </div>
                 <div class="card-info_section">
-                    <div class="card-info_section_1">Langages</div>
-                    <div class="card-info_section_2">Github</div>
+                    <p>LANGUAGES</p>
+                    <p>GITHUB</p>
                 </div>
-                <div class="card-info_langages">
-                    <span class="icons"></span>
-                    <span class="icons"></span>
-                    <span class="icons"></span>
-                    <span class="icons"></span>
-                    <span class="icons"></span>
+                <div class="card-info_media">
+                    <div class="card-info_langages">
+                        <img src="./img/instagram.png" alt="" class="icons">
+                        <img src="./img/facebook.png" alt="" class="icons">
+                        <img src="./img/twitter.png" alt="" class="icons">
+                        <img src="./img/linkedin.png" alt="" class="icons">
+                        <img src="./img/snapchat.png" alt="" class="icons">
+                        <img src="./img/snapchat.png" alt="" class="icons">
+                        <img src="./img/snapchat.png" alt="" class="icons">
+                    </div>
+                    <div class="card-info_github">
+                        https://github.com/JerDamb?tab=repositories
+                    </div>
                 </div>
-                <div class="card-info_github"></div>
             </div>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
