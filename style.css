@@ -29,6 +29,8 @@
 
 .card-background_background {
     position: relative;
+    background-image: url("./img/img2.jfif");
+    background-size: cover;
     box-shadow: -8px 8px 20px rgb(0, 0, 0, 0.15), -8px -8px 20px rgb(0, 0, 0, 0.15);
     width: 35%;
     height: 480px;
@@ -67,16 +69,7 @@
 }
 */
 
-.card-background_img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-}
-
 .background-img {
-    background-image: url("./img/img1.jfif");
     position: absolute;
     width: 100%;
     height: 100%;
